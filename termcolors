@@ -1,0 +1,19 @@
+NORMAL
+0	Black:		000000
+1	Red:		575757
+2	Green:		67c492
+3	Yellow:		10bccd
+4	Blue:		28428e
+5	Magenta:	ca255c
+6	Cyan:		8b2749
+7	White:		ffffff
+
+BRIGHT
+8	Black:		000000
+9	Red:		8b2749
+10	Green:		87bda0
+11	Yellow:		649fa5
+12	Blue:		56648b
+13	Magenta:	ff859f
+14	Cyan:		a55873
+15	White:		ffffff

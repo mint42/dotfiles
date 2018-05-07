@@ -1,0 +1,6 @@
+set number
+set cc=80
+inoremap jk <Esc>
+"inoremap {} {<Enter>}<Esc>O
+inoremap {<Enter> {<Enter>}<Esc>O
+nnoremap B Go
