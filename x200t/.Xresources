@@ -4,15 +4,15 @@ URxvt*boldFont: xft:Determination Mono:style=Regular:size=10
 
 URxvt.boldMode: false
 URxvt*colorBDMode: true
+URxvt*letterSpace:	-1
 
-Xft.dpi:	90
+Xft.dpi:	95
 Xft.antialias:	false
 
 !  Xft.rgba:	rgb
 !  Xft.hinting:	true
 !  Xft.hintstyle:	hintslight
-!  Xft.autohint:	false
-!  Xft.lcdfilter:	lcddefault
+!  Xft.autohint:	false !  Xft.lcdfilter:	lcddefault
 
 !  URxvt Resize Font
 !  URxvt.perl-ext-common:	 resize-font
@@ -26,7 +26,7 @@ URxvt.scrollBar: false
 !  urxvt*transparent: true
 !  urxvt*shading: 50
 URxvt*depth: 32
-URxvt*background: rgba:0000/0000/0000/8000
+URxvt*background: rgba:0000/0000/0000/9000
 
 !  Every shell is a login shell
 xterm*loginShell: true
@@ -54,6 +54,9 @@ xterm*eightBitInput: false
 !  White (Search)
 !  FMT(?) (Include, StatusLine, ErrorMsg)
 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 ! special
 *.foreground:   #b8b8b8
 *.background:   #000000
@@ -61,32 +64,34 @@ xterm*eightBitInput: false
 
 ! black
 *.color0:       #000000
-*.color8:       #000000
+*.color8:       #6c6c6c
 
 ! red
-*.color1:       #575757
-*.color9:       #8b2749
+*.color1:       #b5c85a
+*.color9:       #b7c873
 
 ! green
-*.color2:       #57c489
-*.color10:      #87bda0
+*.color2:       #2caf6a
+*.color10:      #57a37a
 
 ! yellow
-*.color3:       #10bccd
-*.color11:      #609fa5
+*.color3:       #06a3b3
+*.color11:      #428f96
 
 ! blue
-*.color4:       #102973
-*.color12:      #46588b
+*.color4:       #0b2055
+*.color12:      #1d294b
 
 ! magenta
-*.color5:       #ea336f
-*.color13:      #f27e94
+*.color5:       #d23669
+*.color13:      #f07e99
 
 ! cyan
-*.color6:       #b51166
-*.color14:      #ba4980
+*.color6:       #900647
+*.color14:      #933f61
 
 ! white
-*.color7:       #ffffff
+*.color7:       #c4b6b5
 *.color15:      #ffffff
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
