@@ -4,10 +4,15 @@ set modelines=5
 set	splitbelow splitright
 set foldmethod=marker
 set foldmarker=/*,*/
+
 inoremap jk <Esc>
 inoremap {<Enter> {<Enter>}<Esc>O
 nnoremap B Go
 nnoremap <Space> za
 nnoremap j gj
 nnoremap k gk
+
 autocmd! Filetype make setlocal foldmethod=manual
+
+highlight type ctermfg=darkgreen
+highlight preproc ctermfg=blue
