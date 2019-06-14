@@ -1,15 +1,16 @@
 !  Font
-URxvt*font: xft:Determination Mono:style=Regular:size=10
-URxvt*boldFont: xft:Determination Mono:style=Regular:size=10
-!URxvt*font: xft:Misc Tamsyn:size=12:style=Bold
-!URxvt*boldFont: xft:Misc Tamsyn:size=12:style=Bold
+
+URxvt*font: xft:Misc Tamsyn:size=13:style=Bold
+URxvt*boldFont: xft:Misc Tamsyn:size=13:style=Bold
+!URxvt*font: xft:Determination Mono:style=Regular:size=10
+!URxvt*boldFont: xft:Determination Mono:style=Regular:size=10
 
 URxvt.boldMode: false
 URxvt*colorBDMode: true
-URxvt*letterSpace:	-1
+!URxvt*letterSpace:	-1
 
-Xft.dpi:	95
-Xft.antialias:	false
+Xft.dpi:	75
+Xft.antialias:	true
 
 !  Xft.rgba:	rgb
 !  Xft.hinting:	true
@@ -28,9 +29,9 @@ URxvt.scrollBar: false
 !  urxvt*transparent: true
 !  urxvt*shading: 50
 URxvt*depth: 32
-!URxvt*background: rgba:0000/0000/0000/CC
-URxvt*background: rgba:0700/0000/1D00/DD00
-!URxvt*background: rgba:0000/0000/0000/AA00
+URxvt*background: rgba:0000/0000/0000/AF00
+!URxvt*background: rgba:0500/0000/1500/D000
+!URxvt*background: rgba:0800/0000/1F00/BD00
 
 !  Every shell is a login shell
 xterm*loginShell: true
@@ -58,44 +59,86 @@ xterm*eightBitInput: false
 !  White (Search)
 !  FMT(?) (Include, StatusLine, ErrorMsg)
 
-
+!BLARF x200
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ! special
-*.foreground:   #b8b8b8
+*.foreground:   #d7c7b3
 *.background:   #000000
-*.cursorColor:  #b8b8b8
+*.cursorColor:  #d7c7b3
 
 ! black
 *.color0:       #000000
-*.color8:       #444444
+*.color8:       #000000
 
 ! red
-*.color1:       #17b548
-*.color9:       #3c9156
+*.color1:       #a7360a
+*.color9:       #8b482d
 
 ! green
-*.color2:       #00d094
-*.color10:      #298874
+*.color2:       #008b69
+*.color10:      #1e544c
 
 ! yellow
-*.color3:       #1cb5bb
-*.color11:      #25818e
+*.color3:       #b58419
+*.color11:      #8b662e
 
 ! blue
-*.color4:       #0f2e6e
-*.color12:      #1b2950
+*.color4:       #080f52
+*.color12:      #313158
 
 ! magenta
-*.color5:       #7c17a8
-*.color13:      #502766
+*.color5:       #700021
+*.color13:      #6d2a38
 
 ! cyan
-*.color6:       #890856
-*.color14:      #8c2c63
+*.color6:       #361201
+*.color14:      #69402b
 
 ! white
-*.color7:       #c4b6b5
-*.color15:      #ffffff
+*.color7:       #af9a80
+*.color15:      #76654e
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!BORELAIS
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+!! special
+!*.foreground:   #b8b8b8
+!*.background:   #000000
+!*.cursorColor:  #b8b8b8
+!
+!! black
+!*.color0:       #000000
+!*.color8:       #444444
+!
+!! red
+!*.color1:       #27da41
+!*.color9:       #3e9850
+!
+!! green
+!*.color2:       #00ea9a
+!*.color10:      #36a384
+!
+!! yellow
+!*.color3:       #0aacb3
+!*.color11:      #268593
+!
+!! blue
+!*.color4:       #041e50
+!*.color12:      #13224b
+!
+!! magenta
+!*.color5:       #2e0043
+!*.color13:      #351748
+!
+!! cyan
+!*.color6:       #8c0947
+!*.color14:      #802a56
+!
+!! white
+!*.color7:       #c4b6b5
+!*.color15:      #ffffff
+!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!

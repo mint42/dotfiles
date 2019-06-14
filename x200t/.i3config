@@ -31,6 +31,7 @@ bindsym $mod+m mode $backgroundmode
 
 # feh automatic floating
 for_window [class="feh" instance="feh"] floating enable
+
 # pavucontrol automatic floating
 for_window [class="Pavucontrol" instance="pavucontrol"] floating enable
 # pavucontrol shortcut
@@ -40,7 +41,8 @@ bindsym $mod+p exec pavucontrol
 set $mod Mod4
 
 # setting background
-exec --no-startup-id feh --bg-scale ~/Downloads/backgrounds/light.png
+# exec --no-startup-id feh --bg-scale ~/Downloads/backgrounds/light.png
+exec --no-startup-id feh --bg-scale ~/Downloads/backgrounds/darklight.png
 
 # compton - transparency
 exec --no-startup-id compton
@@ -50,10 +52,15 @@ exec --no-startup-id compton
 #font pango:monospace 8
 font xft:Determination Mono 10
 
+# window borders
 # window border settings
 new_window none
-gaps inner 15
+# new_window pixel 2
+# new_float pixel 2
 hide_edge_borders both
+
+# gaps
+gaps inner 15
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -224,7 +231,7 @@ bar {
 		# Whole color settings
 		background $transparent
 		statusline #eeeeee
-		separator #7c17a8
+		separator #444444
 
 		# Type				border			background		font
 		focused_workspace	$transparent	$transparent	#ffffff
