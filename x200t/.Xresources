@@ -77,18 +77,18 @@ xterm*eightBitInput: false
 
 ! green
 *.color2:       #008b69
-*.color10:      #1e544c
+*.color10:      #1d544c
 
 ! yellow
-*.color3:       #b58419
+*.color3:       #b18118
 *.color11:      #8b662e
 
 ! blue
-*.color4:       #080f52
-*.color12:      #313158
+*.color4:       #070d44
+*.color12:      #303058
 
 ! magenta
-*.color5:       #6e0020
+*.color5:       #6b001f
 *.color13:      #6a2836
 
 ! cyan
