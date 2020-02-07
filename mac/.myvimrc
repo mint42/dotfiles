@@ -1,18 +1,62 @@
+inoremap ,/ \
+" add number column
 set number
+" set column indicator at line
 set cc=80
+" ??? 
 set modelines=5
 set	splitbelow splitright
 set foldmethod=marker
-set foldmarker=/*,*/
+set foldmarker={{{,}}}
+set lazyredraw
+
+"set backup
+"set backupdir=~/.vim/backup
+"set writebackup
+"set backupcopy=yes
+
+highlight Folded ctermfg=11 ctermbg=14
+
+" MY VIM CONFIGS {{{
+" enable mouse
+" set mouse=a
+" set the windows title to file title
+" set title
+" show confirm before closing unsaved files
+" set confirm
+" always substitute all matches in a line
+" set gdefault
+" show matching parenthesis
+" set showmatch
+" highlight all search matches
+" set hlsearch
+" display visual flash instead of error bell
+" set visualbell
+" set noerrorbells
+" case sensitive searching
+" set ignorecase
+" number of spaces per tab
+" set softtabstop=4
+" auto indent
+" set autoindent
+" change working directory to open buffer
+" set autochdir
+" }}}
+
+colorscheme blarf
 
 inoremap jk <Esc>
+inoremap JK <Esc>
 inoremap {<Enter> {<Enter>}<Esc>O
 nnoremap B Go
 nnoremap <Space> za
 nnoremap j gj
 nnoremap k gk
+nnoremap <Leader>r :set rnu!<Enter>
+"vnoremap <Leader>b >'<O{<Esc>'>o}<Esc>
+vnoremap <Leader>b >'<O{<Esc>'>o}<Esc>
 
 autocmd! Filetype make setlocal foldmethod=manual
+autocmd! Filetype c,cpp setlocal foldmarker=/*,*/
 
-highlight type ctermfg=darkgreen
-highlight preproc ctermfg=blue
+" vim: foldmarker={{{,}}} foldmethod=marker
