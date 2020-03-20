@@ -4,6 +4,7 @@ set tabstop=4 shiftwidth=4
 set splitright splitbelow
 set incsearch hlsearch
 set wildmenu
+set hidden
 
 syntax on
 

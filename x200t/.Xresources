@@ -1,7 +1,7 @@
 !  Font
 
-URxvt*font: xft:Misc Tamsyn:size=13:style=Bold
-URxvt*boldFont: xft:Misc Tamsyn:size=13:style=Bold
+URxvt*font: xft:Misc Tamsyn:size=16:style=Bold
+URxvt*boldFont: xft:Misc Tamsyn:size=16:style=Bold
 !URxvt*font: xft:Determination Mono:style=Regular:size=10
 !URxvt*boldFont: xft:Determination Mono:style=Regular:size=10
 
@@ -63,7 +63,8 @@ xterm*eightBitInput: false
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ! special
-*.foreground:   #d7c7b3
+*.foreground:       #af9a80
+!*.foreground:   #d7c7b3
 *.background:   #000000
 *.cursorColor:  #d7c7b3
 
