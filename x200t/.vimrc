@@ -6,10 +6,12 @@ set incsearch hlsearch
 set wildmenu
 set hidden
 
+let mapleader = "\\"
+
 syntax on
 
 highlight ColorColumn ctermbg=238
 
 inoremap jk <Esc>
 inoremap {<Enter> {<Enter>}<Esc>O
-nnoremap \r :set rnu!<Enter>
+nnoremap <leader>r :set rnu!<Enter>
